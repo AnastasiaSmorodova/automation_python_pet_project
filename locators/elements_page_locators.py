@@ -67,3 +67,21 @@ class ButtonsPageLocators:
     SUCCESS_DOUBLE = (By.CSS_SELECTOR, "p[id='doubleClickMessage']")
     SUCCESS_RIGHT = (By.CSS_SELECTOR, "p[id='rightClickMessage']")
     SUCCESS_CLICK_ME = (By.CSS_SELECTOR, "p[id='dynamicClickMessage']")
+
+
+class LinksPageLocators:
+    SIMPLE_LINK = (By.CSS_SELECTOR, "a[id='simpleLink']")
+    BAD_REQUEST = (By.CSS_SELECTOR, "a[id='bad-request']")
+
+
+class UploadAndDownloadPageLocators:
+    UPLOAD_FILE = (By.CSS_SELECTOR, "input[id='uploadFile']")
+    UPLOADED_RESULT = (By.CSS_SELECTOR, "p[id='uploadedFilePath']")
+
+    DOWNLOAD_FILE = (By.CSS_SELECTOR, "a[id='downloadButton']")
+
+
+class DynamicPropertiesPageLocators:
+    ENABLE_BUTTON = (By.CSS_SELECTOR, "button[id='enableAfter']")
+    COLOR_CHANGE_BUTTON = (By.CSS_SELECTOR, "button[id='colorChange']")
+    VISIBLE_AFTER_FIVE_SEC_BUTTON = (By.CSS_SELECTOR, "button[id='visibleAfter']")
